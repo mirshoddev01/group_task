@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wrapper_fonimgone {
+    width: 1920px;
+    height: 480px;
+}
+
+.wrapper_fonboxtwo {
+    position: absolute;
+    width: 1032px;
+    height: 480px;
+    margin-top: -485px;
+    background: #00093C;
+}
+
+.wrapper_fonboxtwo h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: -340px;
+    margin-left: 360px;
+}
+
+.wrapper_fonboxtwo h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 360px;
+    margin-top: 25px;
+}
+
+.wrapper_fonboxtwo h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 360px;
+    margin-top: 45px;
+}
+
+.comment {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.comment_top {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 320px;
+}
+
+.comment_text {
+    width: 260px;
+    height: 130.14px;
+    margin-top: -190px;
+    margin-left: 350px;
+}
+
+.comment_text h2 {
+    font-size: 22px;
+    color: black;
+    font-weight: 800;
+    margin-left: 12px;
+}
+
+.comment_text h3 {
+    width: 240px;
+    margin-top: 15px;
+    margin-left: 10px
+}
+
+.comment_text h4 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.famly {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 860px;
+    margin-left: 620px;
+    margin-top: -150px;
+    border-bottom: 2px solid rgb(143, 140, 28)
+}
+
+.famly img {
+    cursor: pointer;
+}
+
+.courses {
+    margin-left: 650px;
+    margin-top: 35px;
+}
+.courses div{
+    cursor: pointer;
+}
+.boxone {
+    width: 150px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.boxtwo {
+    width: 140px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 175px;
+    margin-top: -50px;
+}
+
+.boxthree {
+    width: 160px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 340px;
+    margin-top: -50px;
+}
+
+.boxfour {
+    width: 140px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 520px;
+    margin-top: -50px;
+}
+
+.boxfive {
+    width: 110px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 680px;
+    margin-top: -50px;
+}
+
+.boxsix {
+    width: 260px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 24px;
+}
+
+.boxseven {
+    width: 170px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 285px;
+    margin-top: -50px;
+}
+
+.boxeight {
+    width: 100px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 480px;
+    margin-top: -50px;
+}
+
+.boxnine {
+    width: 110px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: rgb(179, 149, 16) 0px 10px 40px -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+
+.courses div:hover {
+    box-shadow: rgb(130, 179, 16) 0px 10px 40px -10px;
+}
+
+.about_curses_fonimgone {
+    margin-left: 550px;
+    margin-top: 300px;
+}
+
+.about_curses_fonimgtwo {
+    margin-left: -785px;
+    margin-top: 300px;
+}
+
+.about_curses_fonimgthree {
+    margin-left: -450px;
+    margin-top: -100px;
+    margin-bottom: 165px;
+}
+
+.about_courses h1 {
+    width: 704px;
+    height: 65.86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 999;
+    font-size: 24px;
+    line-height: 34px;
+    align-items: center;
+    color: #000000;
+    margin-top: 110px;
+    margin-left: 340px;
+}
+
+.about_courses_top {
+    margin-top: 120px;
+    margin-left: 340px;
+    display: flex;
+}
+
+.about_courses_top_boxone h2 {
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.about_courses_top_boxtwo {
+    margin-left: 150px;
+}
+
+.about_courses_top_boxtwo h2 {
+    width: 250px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 15px
+}
+
+.about_courses_top_boxthree {
+    margin-left: 90px;
+}
+
+.about_courses_top_boxthree h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 15px
+}
+
+.cours_days {
+    margin-top: 110px;
+    margin-left: 340px;
+}
+
+.the_beginning_of_the_course {
+    width: 1180px;
+    height: 160px;
+    background: #F7BC75;
+    border-radius: 20px;
+}
+
+.the_beginning_of_the_course img {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.the_beginning_of_the_course h2 {
+    margin-left: 45px;
+}
+
+.the_beginning_of_the_course h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 210px;
+    margin-top: -100px;
+
+}
+
+.the_beginning_of_the_course p {
+    width: 540px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-left: 210px;
+    margin-top: 25px;
+}
+
+.the_beginning_of_the_course button {
+    float: right;
+    margin-top: -90px;
+    margin-right: 50px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 222.45px;
+    height: 60px;
+    background: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    color: #000000;
+}
+
+.fa-chevron-right {
+    margin-left: 5px;
+}
+
+.pragrammer {
+    width: 480px;
+    height: 460px;
+    background: #C5DDFF;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.pragrammer img {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.pragrammer h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+
+}
+
+.pragrammer p {
+    width: 390px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.pragrammer button {
+    width: 222.45px;
+    height: 50.04px;
+    left: 498.78px;
+    border: 3px solid #00093C;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.new_academy {
+    width: 330px;
+    height: 220px;
+    background: #B8EFCF;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: -460px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.new_academy img {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.new_academy h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.world_it {
+    width: 330px;
+    height: 220px;
+    background: #FFEEF6;
+    border-radius: 20px;
+    margin-left: 850px;
+    margin-top: -222px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.world_it img {
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.world_it h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.Give_it_a_try {
+    width: 680px;
+    height: 220px;
+    background: #FFE38E;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.Give_it_a_try img {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.Give_it_a_try h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    margin-top: -100px;
+    margin-left: -110px;
+}
+
+.Give_it_a_try p {
+    width: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #333333;
+    margin-left: 220px;
+    margin-top: 20px;
+
+}
+
+.commentaria {
+    width: 1920px;
+    height: 600px;
+    background: #00093C;
+    margin-top: 200px;
+}
+
+.group_788 {
+    margin-top: 20px;
+}
+
+.commentaria h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: -510px;
+    margin-left: 720px
+}
+
+.commentone {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.commenttwo {
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.commentthree {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 60px
+}
+
+.commentfour {
+    margin-left: 30px;
+    margin-bottom: 140px;
+}
+
+.commentfive {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.commentsix {
+    margin-left: 30px;
+    margin-bottom: 95px;
+}
+
+.future_hod {
+    margin-top: 70px;
+}
+
+.future_hod h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    line-height: 34px;
+    align-items: center;
+    color: #000000;
+    margin-left: -150px;
+}
+
+.sistem {
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.sistem h2 {
+    width: 192px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.book {
+    margin-top: -155px;
+    margin-left: 730px;
+}
+
+.book h2 {
+    width: 237.21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.dask {
+    margin-top: -145px;
+    margin-left: 1040px;
+}
+
+.dask h2 {
+    width: 280px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.teach {
+    margin-top: -130px;
+    margin-left: 1320px;
+}
+
+.teach h2 {
+    width: 280px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.help {
+    position: absolute;
+    width: 1180px;
+    height: 270px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 210px;
+    margin-left: 280px;
+    -webkit-box-shadow: -9px -2px 17px -11px #FFA421;
+}
+
+footer {
+    margin-top: 440px;
+}
+
+.firstimg {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 230px;
+}
+
+.help img {
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.help h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: -175px;
+    margin-left: 290px;
+}
+
+.help p {
+    display: inline-block;
+    width: 352px;
+    margin-left: 290px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.inputone {
+    display: inline-block;
+    width: 440px;
+    height: 50px;
+    border: none;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+
+}
+
+.inputtwo {
+    display: inline-block;
+    width: 210px;
+    height: 50px;
+    border: none;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    float: right;
+    margin-right: 275px;
+    margin-top: -100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+
+}
+
+.inputthree {
+    display: inline-block;
+    width: 210px;
+    height: 50px;
+    border: none;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+
+}
+
+.help h6 {
+    width: 190px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+    color: #4F4F4F;
+    float: right;
+    margin-right: 290px;
+    margin-top: -30px;
+
+}
+
+.help button {
+    border: none;
+    width: 210px;
+    height: 50.04px;
+    background: #F7941D;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+    margin-right: -440px;
+    margin-top: -30px;
+}
